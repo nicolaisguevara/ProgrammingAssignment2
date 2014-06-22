@@ -12,7 +12,7 @@
 ##
 #################################################################
 #################################################################
-   
+
 #################################################################
 ## The function makeCacheMatrix creates a special matrix
 ## to be used with the cacheSolve function.
@@ -20,7 +20,7 @@
 ## >  specialMatrix <- makeCacheMatrix(matrix)
 ##
 ## Here matrix is a standard matrix and specialMatrix is a 
-## special matrix required to be used with cacheSolve.
+## special matrix required to be used with cacheSolve
 #################################################################
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -59,4 +59,3 @@ cacheSolve <- function(x, ...) {
   x$setinverse(m)
   m
 }
-
